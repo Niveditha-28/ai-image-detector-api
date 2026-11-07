@@ -14,7 +14,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:3000",
         "http://127.0.0.1:3000",
-        "https://ai-projects-portfolio-five.vercel.app/"
+        "https://ai-projects-portfolio-five.vercel.app"
     ],
     allow_credentials=False,
     allow_methods=["GET", "POST"],
